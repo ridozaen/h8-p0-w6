@@ -12,7 +12,14 @@
 
 <body onload="buildQuiz()">
     <h1>TEBAK GAMBAR</h1>
-    <div id="quiz">
+    <div class="quiz-content">
+        <div id="quiz">
+        </div>
+    </div>
+    <div id="btn-nav">
+        <button id="previous-quiz" onclick="showPreviousSlide()">Previous Quiz</button>
+        <button id="next-quiz" disabled onclick="showNextSlide()">Next Quiz</button>
+        <button id="reload"  onClick="window.location.reload()">Start Again!</button>
     </div>
 
 </body>
