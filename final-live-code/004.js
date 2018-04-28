@@ -33,7 +33,7 @@ function miniSudokuBoard (text) {
   for (var i = 0 ; i < arrText.length; i++){
     var arrSudo3 = [];
     for(var j = 0; j < 3; j++){
-      arrSudo3.push (arrText.splice(0,1));
+      arrSudo3.push (arrText.splice(0,1).join(''));
     }
     arrSudo3X3.push(arrSudo3);
   }
