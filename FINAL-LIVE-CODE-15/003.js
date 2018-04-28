@@ -90,7 +90,7 @@ function shortestWords(words) {
   //     if (arrMin[k].toLowerCase() == arrMin[l].toLowerCase() && k !==l){
   //       arrMin.splice(l,1);
   //     }
-  //   }
+  //   } 
   // }
 
   return arrMin;
